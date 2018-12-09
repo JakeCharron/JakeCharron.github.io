@@ -1,7 +1,8 @@
-My Portfolio
+# My Portfolio
 
-Hello, this Portfolio was built of a template by startbootstrap.com
-however I have modified it to my liking hope you enjoy, feel free
-to clone this repository and make your own Portfolio, wish the best of luck to
-you,
-  -Jake Charron
+As a high school student, I've had the privilege to work on interesting projects and dabble into my interests in Computer Science, Electronics, and Engineering. Check out my [website](www.jakecharron.github.com) to see my cool projects. 
+
+## ![Website](/img/website.jpg)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
