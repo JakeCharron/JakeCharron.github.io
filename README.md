@@ -1,6 +1,6 @@
 # My Portfolio
 
-As a high school student, I've had the privilege to work on interesting projects and dabble into my interests in Computer Science, Electronics, and Engineering. Check out my [website](www.jakecharron.github.com) to see my cool projects. 
+As a high school student, I've had the privilege to work on interesting projects and dabble into my interests in Computer Science, Electronics, and Engineering. Check out my [website](https://jakecharron.github.io/) to see my cool projects. 
 
 ## ![Website](/img/website.jpg)
 
