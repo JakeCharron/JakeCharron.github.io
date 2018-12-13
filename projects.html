@@ -42,8 +42,8 @@
 
       <div class="container">
         <br>  
-
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" style="border-radius: 25px;" data-ride="carousel">
+        <center>
+        <div id="carouselIndicators" class="carousel slide carousel-fade" style="border-radius: 25px;" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#CompSci" data-slide-to="0" class="active"></li>
                 <li data-target="#Electronics" data-slide-to="1"></li>
@@ -81,26 +81,44 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-
+            </center>
             <br>
 
     </div>
 
-    <center><div id="carouselSeperator" class="container-fluid bg-secondary"></div></center>
+    <center><div id="carouselSeperator" class="container-fluid bg-dark"></div></center>
     
     <br>
 
-    
+    <center>
+      <div id="jumbotron" class="jumbotron" style="width: 85%;background-color: rgb(103, 67 , 202)">
+        <h1 style="color: white;">Computer Science</h1>
+        <hr class="my-5">
+        <p class="lead"></p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </center> 
 
     <style>
       body {
         background:url("img/what-the-hex.png");
       }
+
+      #carouselIndicators{
+        width: 100%;
+      }
+
+      #jumbrotron{
+        opacity: .8;
+        border-radius: 25px;
+        height: .5rem;
+        width: 100%;
+      }
       #carouselSeperator{
         opacity: .8;
         border-radius: 25px;
         height: .5rem;
-        width: 85%;
+        width: 86.5%;
       }
     </style>
 
