@@ -1,13 +1,22 @@
 body {
-    text-align: center;
     margin: 0 auto;
-    background:url("img/what-the-hex.png");
+    background:url("img/doodles.png");
 }
 .whiteHR{
     border-color: white;
 }
 .youtubeVideo{
-    width: 560;
-    height: 315;
-    border: 0;
+    width: 560px;
+    height: 315px;
+    border: 0px;
+    margin-bottom: 3rem;
+}
+p, h4 {
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.textP{
+    text-align: justify;
 }
