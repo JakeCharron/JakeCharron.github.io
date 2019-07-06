@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background:url("img/what-the-hex.png");
+}
+.whiteHR{
+    border-color: white;
+}
+.youtubeVideo{
+    width: 560;
+    height: 315;
+    border: 0;
+}

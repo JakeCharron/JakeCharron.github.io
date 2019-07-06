@@ -4,84 +4,55 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/style.css">
     <title>Jake Charron</title>
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Jake Charron</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="school.html">School</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="heartbeat.html">Heartbeat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light my-2 my-sm-0"  style="margin-right: 25px;" onclick="window.location.href='https://www.github.com/JakeCharron'" type="submit">See Projects</button>
-        </div>
+      <a class="navbar-brand" href="" >Jake Charron</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href=""> About Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="school.html">School</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="heartbeat.html">Heartbeat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light my-2 my-sm-0"  style="margin-right: 25px;" onclick="window.location.href='https://www.github.com/JakeCharron'" type="submit">See Projects</button>
+      </div>
     </nav>
-
     <br>
-
     <center>
       <div id="aboutMe" class="jumbotron bg-primary" style="width: 85%; border-radius: 25px;">
         <h1 class="display-4 text-light">About Me</h1>
-          <hr class="my-5">
-          <div>
-            <img src="img/eportfolioPic.jpg" style="width: 125px; height: 125px; margin-bottom: 50px;">   
-            <h5 class="text-light" style="width: 500px;"> &emsp;My name is Jake Charron. I am currently a tenth grader enrolled at Gulliver Preparatory School in Miami, Florida. At Gulliver Preparatory I have been able to study cool subjects like Computer Science, Enigneering, Robotics, and Electronics. </h5>
-          </div>
+        <hr class="my-5" style="border-color: white;">
+        <div>
+          <img src="img/eportfolioPic.jpg" style="width: 200px; height: 200px; margin-bottom: 50px; border-radius: 100px;">   
+          <p class="text-light" style="width: 500px;"> &emsp;Hello and welcome to my E-Portfolio, I am Jake Charron and I made this website using Bootstrap, Html, Css, and Javascript.</p>
+        </div>
       </div>
     </center>
-
     <style>
       body {
-        background:url("img/what-the-hex.png");
+      background:url("img/what-the-hex.png");
       }
     </style>
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-    
-    <script>
-      function compsci(){
-        console.log("Computer Science")
-        var csCard = document.getElementById("csCard");
-        csCard.scrollIntoView()
-      }
-      function electronics(){
-        console.log("electronics")
-        var elecCard = document.getElementById("elecCard");
-        elecCard.scrollIntoView()
-      }
-      function engineering(){
-        console.log("engineering")
-        var engCard = document.getElementById("engCard");
-        engCard.scrollIntoView()
-      }
-
-    </script>
-
   </body>
 </html>
