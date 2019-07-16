@@ -6,11 +6,13 @@ body {
 .whiteHR{
     border-color: white;
 }
-.youtubeVideo{
+.video{
     width: 560px;
     height: 315px;
     border: 0px;
-    margin-bottom: 3rem;
+    margin: 1rem auto;
+    margin-bottom: 1.75rem;
+    border-radius: .25rem;
 }
 p, h4 {
     text-align: center;
@@ -20,4 +22,10 @@ p, h4 {
 }
 .textP{
     text-align: justify;
+}
+.faceImg{
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  border-radius: 2.5rem;
+  height: 20rem;
 }
